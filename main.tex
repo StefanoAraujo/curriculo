@@ -1,0 +1,111 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.3, 30 April 2017) written by
+% LianTze Lim (liantze@gmail.com), based on the 
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+% 
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options. 
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages. 
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{2F259D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Stéfano Araujo Pereira}
+\tagline{Analista Desenvolvedor Java FullStack}
+\photo{2cm}{microsoft}
+\personalinfo{%
+  \printinfo{Nascionalidade:}{Brasileira}
+  \printinfo{Nascimento:}{05/11/1979}
+  \email{araujo.dev@gmail.com}
+  \phone{(61) 99354-4336}
+  \mailaddress{beingsane@gmail.com} 
+  \location{Santa Maria/Brasília, DF}
+  \printinfo{Estado Civil:}{Casado}
+  %\linkedin{-}
+  %\github{https://github.com/StefanoAraujo}
+  }
+
+
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{RESUMO DE QUALIFICAÇÕES}
+\begin{itemize}
+\item Experiência em análise e desenvolvimento Fullstack (Backend/Frontend) de sistemas com persistência em JAVA (JDBC, JPA, Hibernate,  Spring data), utilizando os principais bancos relacionais e não relacionais,e interoperabilidade entre diversas linguagem WEB como JAVASCRIPT, Angular, AngularJs, TypeScript, NodeJS e seus frameworks e ferramentas. Consumo de serviços utilizando XML, SOAP , UDP, WebSocket, REST e JSON. 
+\item Vivência em Gerência de configuração em Linux/Windows, controle de versão e mudanças, ferramentas de Gestão de Atividades, padrões de projeto, Designer Patterns, verificação de qualidade de código, testes automatizados e arquiteturas de servidor e containers (Docker e Kubernetes) e virtualização. 
+\item Desenvolvimento mobile android e híbrido e relatórios business inteligence. Utilização de metodologias ágeis SCRUM, XP e outros. 
+\end{itemize}
+
+\cvsection{ATIVIDADES PROFISSIONAIS}
+\cvevent{Analista de Desenvolvedor FullStacK  }{CTIS / Grupo Sonda}{março 2012 -- ATUAL}{Brasília, DF}
+\begin{itemize}
+\item \textbf{CONTRATOS:} Polícia Rodoviária Federal, Ministério da Ciência, Tecnologia, Inovações e Comunicações,Fábrica de Software, Ministério do Turismo e CAESB
+\item \textbf{Projeto:} Leilão, ESCOLTA, RENAINF, PRFcidadão, MotorConsulta, Portal, GeoPortal, SGD, Planejamento Estratégico, CIUCA-LIFERAY, SIGPLANI, SETEC, AGENDA MCTIC, SGA-MINISTRO, SGA-SEXEC, SIBRATE ACESSO, SIBRATEC, CIUCA, SIBRATEC ACESSO, SETEC, GESPRO, Portais Diversos, dEscritorio Online, Seminários, SISFIN, GCOM, SISFINJ, GEDOCJ, SIASO, SARC, GEDOC
+\item \textbf{Aquitetura utilizadas: }Angular, Java , SpringBoot, Hibernate, SQLServer, Informix, Postgress, Wildfly, Tomcat, Jboss, Jsf, Jsf, Soap, Rest, CSS, PHP, Laravel, NPM, Javascript, node, rest, gulp, express, Ionic, React Native, React, Bootstrap, Angular JS, Bower, NPM, Javascript, CSS, node, rest, gulp, Jade/Pug e Json, Java, Hibernate, SQLServer, CSS, XML, Jquery, PDF, Hibernate, Spring, Primefaces, JSP, JPA, WildFly, Jboss, Jetty, EJB, apache Tomcat Json, PHP,  YII, CodeIgneter, SQLServer,  Mysql, Soap, apache, Jquery, Boostrap, Material Designer, Docker, Apache, Postgress, Maven,
+Angular, Java, Hibernate, SQLServer,  NPM, Javascript, CSS, node, rest, gulp, Jade/Pug e Json, XML, Material Design, JBOSS, Wildfly, Express. Angular, Java, Hibernate, SQLServer,  NPM, Javascript, CSS, node, rest, gulp, Jade/Pug e Json, XML, Material Design, JBOSS, Wildfly, Express, Material Design, Jboss, Wildfly, Html, ASP/.NET, Soap, XML, Jquery, Boostrap , relatórios em PDF/XLS.
+PHP, Java, Hibernate, Joomla, Mibew, Tomcat, Jetty, Docker, vagrant, Jsf, Js, MySql, SqlServer, Css, Html, Asp/.Net, Soap, Xml, Jquery, Boostrap , relatórios em Pdf/Xls e Json, PostMan, TypeScript
+\end{itemize}
+
+\cvsection{Cursos}
+\cvachievement{\faPlusSquare}{Analise de Ponto Função: FATTO Consultoria e Sistemas}{Benefícios e Implantação;Capacitação em Analise de Ponto Função;Medição e Estimativa de Software;Metodologia e Práticas de Contagem}
+\end{document}
